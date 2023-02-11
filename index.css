@@ -1,7 +1,28 @@
 .cl-text-61 {
-  color: #189961;
+  color: #066706;
 }
-
+.cl-text-36 {
+  color: #343536;
+}
+.adresbar .dropdown-hov .cl-text-36:hover {
+  color: #732473;
+}
+adresbar .dropdown-hov .cl-text-36:focus {
+  color: #732473;
+}
+.adresbar .dropdown-hov .dropdown-menu {
+  opacity: 0 !important;
+  position: absolute;
+  margin-top: 20px;
+  color: #fff;
+  transition: 1s;
+}
+.adresbar .dropdown-hov-menu {
+  opacity: 1 !important;
+  color: #732473;
+  margin-top: 0px;
+  transition: 1s;
+}
 .fs-text-roboto {
   font-family: "Roboto Condensed", sans-serif;
 }
@@ -14,4 +35,23 @@
 }
 .fs-7 {
   font-size: 0.8rem !important;
+}
+.h-80 {
+  height: 80px;
+}
+.logoS {
+  font-size: 24pt;
+  font-weight: 700;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+}
+.logoP {
+  font-size: 29pt;
+  font-weight: 300;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  font-family: Jura, sans-serif;
+  letter-spacing: 2pt;
 }
