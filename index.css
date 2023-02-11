@@ -5,9 +5,13 @@
 .fs-text-roboto {
   font-family: "Roboto Condensed", sans-serif;
 }
-.bi-geo-alt::before {
-  font-size: 30pt;
+
+.icons-addres::before {
+  font-size: 25pt;
 }
 .icons {
   color: #5ecc9c;
+}
+.fs-7 {
+  font-size: 0.8rem !important;
 }
