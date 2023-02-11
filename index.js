@@ -1,10 +1,10 @@
 document.querySelectorAll(".dropdown-hov").forEach((e, i) => {
-  e.addEventListener("mouseover", (el) => {
+  e.addEventListener("mouseover", () => {
     document.querySelectorAll(".dropdown-menu").forEach((el, j) => {
       if (i == j) {
-        el.setAttribute("style", "opacity:1 !important;");
+        el.classList.add("dropdown-hov-menu");
       } else {
-        el.setAttribute("style", "opacity:0 !important;");
+        el.classList.remove("dropdown-hov-menu");
       }
       //
     });
@@ -12,7 +12,13 @@ document.querySelectorAll(".dropdown-hov").forEach((e, i) => {
 });
 
 document.querySelector("body").addEventListener("click", () => {
-  document.querySelectorAll(".dropdown-menu").forEach((e) => {
-    e.setAttribute("style", "opacity:0 !important;");
+  document.querySelectorAll(".dropdown-menu").forEach((el) => {
+    el.classList.remove("dropdown-hov-menu");
+  });
+});
+
+window.addEventListener("scroll", () => {
+  document.querySelectorAll(".dropdown-menu").forEach((el) => {
+    el.classList.remove("dropdown-hov-menu");
   });
 });
