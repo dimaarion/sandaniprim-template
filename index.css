@@ -10,15 +10,17 @@
 adresbar .dropdown-hov .cl-text-36:focus {
   color: #732473;
 }
-.adresbar .dropdown-hov .dropdown-menu {
+.dropdown-menu {
   opacity: 0 !important;
   position: absolute;
+  display: block;
   margin-top: 20px;
   color: #fff;
   transition: 1s;
 }
-.adresbar .dropdown-hov-menu {
+.dropdown-hov-menu {
   opacity: 1 !important;
+
   color: #732473;
   margin-top: 0px;
   transition: 1s;
@@ -54,4 +56,7 @@ adresbar .dropdown-hov .cl-text-36:focus {
   font-variant: normal;
   font-family: Jura, sans-serif;
   letter-spacing: 2pt;
+}
+.d-inline-block {
+  display: inline-block;
 }
