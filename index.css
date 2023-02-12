@@ -12,15 +12,19 @@ adresbar .dropdown-hov .cl-text-36:focus {
 }
 .dropdown-menu {
   opacity: 0 !important;
-  position: absolute;
+  min-width: 1em;
+  position: absolute !important;
   display: block;
   margin-top: 20px;
   color: #fff;
   transition: 1s;
 }
+.z-100 {
+  z-index: 100;
+  position: relative;
+}
 .dropdown-hov-menu {
   opacity: 1 !important;
-
   color: #732473;
   margin-top: 0px;
   transition: 1s;
