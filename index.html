@@ -26,9 +26,9 @@
   </head>
   <body>
     <div class="container-fluid px-0">
-      <div class="container-lg">
+      <div class="container-lg d-none d-sm-block">
         <div class="row adresbar fs-text-roboto">
-          <div class="col-sm-5">
+          <div class="col-sm">
             <a class="navbar-brand" href="#">
               <svg width="100" height="100" viewBox="0,0,150,150">
                 <text x="0" y="42" class="logoS" fill="DarkGreen">SANDANI</text>
@@ -87,9 +87,9 @@
                 <div class="fs-5 cl-text-61">Вызов замерщика</div>
                 <div class="fs-7">
                   <ul class="nav">
-                    <li class="nav-item">
+                    <li class="nav-item dropdown-hov">
                       <a
-                        class="nav-link cl-text-36 dropdown-hov dropdown-toggle"
+                        class="nav-link cl-text-36 dropdown-toggle"
                         href="#"
                         role="button"
                         aria-expanded="false"
@@ -139,35 +139,43 @@
         </div>
       </div>
 
-      <nav class="navbar navbar-expand-lg fs-text-roboto border-top mt-2">
+      <nav class="navbar navbar-expand-lg px-3 fs-text-roboto border-top mt-2">
         <div class="container-lg px-0">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Переключатель навигации"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <a class="navbar-brand d-block d-sm-none" href="#">
+            <svg width="80" height="100" viewBox="0,0,180,180">
+              <text x="0" y="42" class="logoS" fill="DarkGreen">SANDANI</text>
+              <rect x="0" y="50" width="90" height="100"></rect>
+              <text x="150" y="55" transform="rotate(90,126,25)" class="logoP">
+                PRIM
+              </text>
+              <rect x="4" y="55" width="5" fill="#fff" height="90"></rect>
+              <rect x="4" y="55" width="40" fill="#fff" height="5"></rect>
+              <rect x="40" y="55" width="5" fill="#fff" height="90"></rect>
+              <rect x="4" y="140" width="40" fill="#fff" height="5"></rect>
+              <rect x="48" y="55" width="5" fill="#fff" height="90"></rect>
+              <rect x="48" y="55" width="38" fill="#fff" height="5"></rect>
+              <rect x="81" y="55" width="5" fill="#fff" height="90"></rect>
+              <rect x="48" y="140" width="38" fill="#fff" height="5"></rect>
+              <rect x="48" y="75" width="38" fill="#fff" height="5"></rect>
+            </svg>
+          </a>
+
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link fw-bold active" aria-current="page" href="#"
                   >Главная</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Рекомендуемые</a>
+                <a class="nav-link fw-bold" href="#">Рекомендуемые</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Цена</a>
+                <a class="nav-link fw-bold" href="#">Цена</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item dropdown-hov">
                 <a
-                  class="nav-link dropdown-hov dropdown-toggle"
+                  class="nav-link dropdown-toggle fw-bold"
                   href="#"
                   role="button"
                   aria-expanded="false"
@@ -185,11 +193,11 @@
             </ul>
           </div>
 
-          <div class="navbar-text">
+          <div class="navbar-text leng">
             <ul class="navbar-nav">
-              <li class="nav-item">
+              <li class="nav-item dropdown-hov">
                 <a
-                  class="nav-link dropdown-hov dropdown-toggle"
+                  class="nav-link dropdown-toggle"
                   href="#"
                   role="button"
                   aria-expanded="false"
@@ -204,6 +212,17 @@
             </ul>
           </div>
         </div>
+        <button
+          class="navbar-toggler nav-btn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Переключатель навигации"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </nav>
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">

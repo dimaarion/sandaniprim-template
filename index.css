@@ -10,7 +10,19 @@
 adresbar .dropdown-hov .cl-text-36:focus {
   color: #732473;
 }
+.nav-btn {
+  position: absolute;
+  margin: auto;
+  top: 15px;
+  right: 25px;
+}
+.dropdown-hov:hover > .dropdown-menu {
+  opacity: 1 !important;
+  visibility: visible;
+  margin-top: 0px;
+}
 .dropdown-menu {
+  visibility: hidden;
   opacity: 0 !important;
   min-width: 100px;
   position: absolute !important;
@@ -63,4 +75,10 @@ adresbar .dropdown-hov .cl-text-36:focus {
 }
 .d-inline-block {
   display: inline-block;
+}
+
+@media screen and (max-width: 570px) {
+  .leng {
+    margin-top: 50px;
+  }
 }
