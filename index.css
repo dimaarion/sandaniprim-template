@@ -1,0 +1,66 @@
+.cl-text-61 {
+  color: #066706;
+}
+.cl-text-36 {
+  color: #343536;
+}
+.adresbar .dropdown-hov .cl-text-36:hover {
+  color: #732473;
+}
+adresbar .dropdown-hov .cl-text-36:focus {
+  color: #732473;
+}
+.dropdown-menu {
+  opacity: 0 !important;
+  min-width: 1em;
+  position: absolute !important;
+  display: block;
+  margin-top: 20px;
+  color: #fff;
+  transition: 1s;
+}
+.z-100 {
+  z-index: 100;
+  position: relative;
+}
+.dropdown-hov-menu {
+  opacity: 1 !important;
+  color: #732473;
+  margin-top: 0px;
+  transition: 1s;
+}
+.fs-text-roboto {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.icons-addres::before {
+  font-size: 25pt;
+}
+.icons {
+  color: #5ecc9c;
+}
+.fs-7 {
+  font-size: 0.8rem !important;
+}
+.h-80 {
+  height: 80px;
+}
+.logoS {
+  font-size: 24pt;
+  font-weight: 700;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+}
+.logoP {
+  font-size: 29pt;
+  font-weight: 300;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  font-family: Jura, sans-serif;
+  letter-spacing: 2pt;
+}
+.d-inline-block {
+  display: inline-block;
+}
