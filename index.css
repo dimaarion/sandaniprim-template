@@ -12,7 +12,7 @@ adresbar .dropdown-hov .cl-text-36:focus {
 }
 .dropdown-menu {
   opacity: 0 !important;
-  min-width: 1em;
+  min-width: 100px;
   position: absolute !important;
   display: block;
   margin-top: 20px;
@@ -40,7 +40,7 @@ adresbar .dropdown-hov .cl-text-36:focus {
   color: #5ecc9c;
 }
 .fs-7 {
-  font-size: 0.8rem !important;
+  font-size: 1rem !important;
 }
 .h-80 {
   height: 80px;
