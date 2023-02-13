@@ -5,7 +5,7 @@
   color: #343536;
 }
 .adresbar .dropdown-hov .cl-text-36:hover {
-  color: #732473;
+  color: #343536;
 }
 adresbar .dropdown-hov .cl-text-36:focus {
   color: #732473;
@@ -21,6 +21,18 @@ adresbar .dropdown-hov .cl-text-36:focus {
   visibility: visible;
   margin-top: 0px;
 }
+.nav-tel {
+  width: 150px;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #732473;
+  color: #ffffff !important;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #343536;
+}
 .dropdown-menu {
   visibility: hidden;
   opacity: 0 !important;
@@ -28,6 +40,7 @@ adresbar .dropdown-hov .cl-text-36:focus {
   position: absolute !important;
   display: block;
   margin-top: 20px;
+  margin-left: 20px;
   color: #fff;
   transition: 1s;
 }
@@ -75,6 +88,10 @@ adresbar .dropdown-hov .cl-text-36:focus {
 }
 .d-inline-block {
   display: inline-block;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 570px) {
