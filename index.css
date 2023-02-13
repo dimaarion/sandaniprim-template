@@ -59,13 +59,13 @@ adresbar .dropdown-hov .cl-text-36:focus {
 }
 
 .icons-addres::before {
-  font-size: 25pt;
+  font-size: 20pt;
 }
 .icons {
   color: #5ecc9c;
 }
 .fs-7 {
-  font-size: 1rem !important;
+  font-size: 0.9rem !important;
 }
 .h-80 {
   height: 80px;
@@ -94,7 +94,7 @@ adresbar .dropdown-hov .cl-text-36:focus {
   padding-right: 20px;
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 1000px) {
   .leng {
     margin-top: 50px;
   }
