@@ -33,10 +33,20 @@ adresbar .dropdown-hov .cl-text-36:focus {
 .nav-link:hover {
   color: #343536;
 }
+#navbarNavDropdown ul li {
+  border-bottom: solid 2px #ffffff;
+}
+#navbarNavDropdown ul li:hover {
+  border-bottom: solid 2px #066706;
+}
+#navbarNavDropdown ul li:hover li {
+  border-bottom: solid 2px #ffffff;
+}
+
 .dropdown-menu {
   visibility: hidden;
   opacity: 0 !important;
-  min-width: 100px;
+  min-width: 90px;
   position: absolute !important;
   display: block;
   margin-top: 20px;
