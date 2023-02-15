@@ -22,7 +22,13 @@ adresbar .dropdown-hov .cl-text-36:focus {
   margin-top: 0px;
 }
 .nav-tel {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-tel ul {
   width: 150px;
+  margin-left: 0px;
 }
 .dropdown-item.active,
 .dropdown-item:active {
