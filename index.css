@@ -73,6 +73,9 @@ adresbar .dropdown-hov .cl-text-36:focus {
 .fs-text-roboto {
   font-family: "Roboto Condensed", sans-serif;
 }
+.fs-text-roboto-700 {
+  font-family: "Roboto Condensed", sans-serif;
+}
 
 .icons-addres::before {
   font-size: 20pt;
@@ -108,6 +111,10 @@ adresbar .dropdown-hov .cl-text-36:focus {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.bg-line {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
 }
 
 @media screen and (max-width: 1000px) {
